@@ -1,13 +1,13 @@
 ﻿#ifndef LOGIC_H
 #define LOGIC_H
 
-// Tận dụng Bước 4 [cite: 71, 73]
+
 void ResetData();
 
-// Tận dụng Bước 10 [cite: 116, 117]
+// Tận dụng Bước 10 
 int CheckBoard(int pX, int pY);
 
-// Logic di chuyển tận dụng Bước 11 (Bỏ GotoXY) [cite: 118, 119, 121]
+// Logic di chuyển tận dụng Bước 11 
 void MoveRight(); 
 void MoveLeft(); 
 void MoveDown(); 
